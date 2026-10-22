@@ -32,115 +32,85 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
 
 
+## Sector Overview & Market Dynamics
+
+The global headless commerce market is currently valued at approximately **$2.0B – $2.4B** and is expanding rapidly at an estimated **CAGR of 21% – 22.6%**, projected to reach **$6.2B – $7.2B** into the 2030s. The sector exhibits **moderate fragmentation across its modular layers** rather than a winner-take-all monopoly: while enterprise heavyweights dominate core backend and CRM ecosystems, brands actively distribute their stacks across best-of-breed API-first commerce backends, specialized headless CMS providers, and decoupled modern storefronts.
+
 ## SaaS/Hosted Platforms
 
-
-
-- **[Shopify Plus](https://www.shopify.com/plus)**  
-
-  Enterprise tier of Shopify with B2B features (company accounts, net terms), multi-store management, and headless support via Hydrogen/Oxygen. **Pricing**: flat monthly fee with GMV thresholds; third-party gateway fees removed. Best for high-volume DTC and B2B merchants outgrowing standard Shopify but wanting managed infrastructure.
-
-
-
-- **[BigCommerce Enterprise](https://www.bigcommerce.com/enterprise/)**  
-
-  Open SaaS platform with native B2B capabilities (price lists, quote management, customer segmentation), headless architecture via Catalyst (Next.js) and GraphQL Storefront API, and unlimited API calls . **Pricing**: standard tiers $39–$399/month; Enterprise custom-quoted. Best for mid-market and enterprise implementations wanting SaaS convenience with headless flexibility.
-
-
-
-- **[commercetools](https://commercetools.com/)**  
-
-  API-first, composable commerce platform built for enterprise flexibility. Offers B2C, B2B, and B2X products with frontend framework and integration hubs. Pricing is enterprise-tier and custom-quoted. Best for organizations with technical teams building custom commerce experiences.
-
-
-
-- **[Spryker](https://spryker.com/)**  
-
-  Composable, API-first B2B commerce and marketplace platform recognized in Gartner Hype Cycle for Digital Commerce. Designed for complex products, multi-tier distribution, and multi-region operations. Enterprise-priced. Best for B2B manufacturers and distributors with complex catalog structures.
-
-
-
-- **[Elastic Path](https://www.elasticpath.com/)**  
-
-  Composable commerce platform specializing in B2B, subscriptions, and complex catalogs. Features unlimited pricebooks, account hierarchies, dynamic bundles, and B2B2C support. Enterprise-priced. Best for organizations needing deep B2B pricing and account management.
-
-
-
-- **[VTEX](https://vtex.com/)**  
-
-  AI-native enterprise commerce suite with Commerce Platform (B2B/B2C/OMS), CX Platform (conversational commerce, discovery), and Ads Platform (retail media). Multi-tenant SaaS architecture. Best for enterprises operating across multiple channels and regions.
-
-
-
-- **[Adobe Commerce (Magento)](https://business.adobe.com/products/magento/magento-commerce.html)**  
-
-  Enterprise version of Magento with advanced B2B features, AI-powered merchandising, multi-database architecture, and managed cloud hosting. **PHP 8.3+, MySQL 8.0/MariaDB 10.4+, OpenSearch 2.x required** for self-hosted deployments . Licensing is GMV-based. Best for enterprises with dedicated PHP/DevOps teams and complex customization needs.
-
-
-
-- **[Salesforce Commerce Cloud](https://www.salesforce.com/products/commerce-cloud/)**  
-
-  Enterprise commerce platform offering B2C and B2B/D2C solutions on the Salesforce platform, with Agentforce AI integration, native order management, and composable storefront options. Enterprise-tier pricing. Best for organizations already invested in the Salesforce ecosystem.
-
-
+| Platform | Starting Price | Free Tier / Trial Limits | Company Size (Market Cap / Valuation / Revenue) | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Shopify Plus](https://www.shopify.com/plus)** | $2,300/month (3-year contract) or $2,500/month (1-year contract) | No public free trial; 30 to 60-day sales-assisted evaluation sandboxes provided for enterprise migrations | ~$220B Market Cap (NYSE: SHOP) | Enterprise tier with B2B features, multi-store management, and headless support via Hydrogen & Oxygen. |
+| **[Salesforce Commerce Cloud](https://www.salesforce.com/products/commerce-cloud/)** | ~$12,500/month ($150,000/year minimum contract or ~1% GMV) | No self-serve trial; custom guided sandbox demos available through sales consultation | ~$200B Market Cap (NYSE: CRM) | Enterprise B2B/B2C commerce suite on the Salesforce platform featuring Agentforce AI, native OMS, and composable storefronts. |
+| **[Adobe Commerce (Magento)](https://business.adobe.com/products/magento/magento-commerce.html)** | $1,833/month ($22,000/year for On-Premise; $40,000/year for Cloud) | No SaaS free trial (evaluation via Magento Open Source perpetual free download without time limits) | ~$98B Market Cap (NASDAQ: ADBE) | Enterprise version of Magento with advanced B2B features, AI-powered merchandising, and multi-database architecture. |
+| **[commercetools](https://commercetools.com/)** | ~$3,333/month ($40,000/year minimum annual contract) | 60-day free trial (unlimited API calls, preloaded sample B2B/B2C datasets, Merchant Center access, no credit card required) | $1.9B Valuation / $100M+ ARR | Category pioneer of composable commerce with cloud-native, API-first architecture designed for enterprise flexibility. |
+| **[VTEX](https://vtex.com/)** | $2,000/month base platform fee + revenue/GMV share | No self-serve free trial; access requires scheduled guided proof-of-concept (PoC) demo environments | ~$720M Market Cap (NYSE: VTEX) | AI-native enterprise commerce and marketplace suite with unified OMS, conversational commerce, and retail media engine. |
+| **[Spryker](https://spryker.com/)** | ~$8,333/month ($100,000/year minimum annual contract) | No self-serve free trial; 45-day sales-coordinated evaluation sandboxes via cloud partner marketplaces | ~$500M Valuation / $152M raised | Composable, API-first B2B commerce and marketplace platform optimized for complex catalogs and multi-region operations. |
+| **[BigCommerce Enterprise](https://www.bigcommerce.com/enterprise/)** | $1,000/month (Standard plans start at $39/month to $399/month) | 15-day free trial (standard self-serve with full store builder access, no credit card required) | ~$220M Market Cap / ~$360M ARR (NASDAQ: CMRC) | Open SaaS platform with native B2B capabilities, headless Catalyst (Next.js), and unlimited storefront API calls. |
+| **[Elastic Path](https://www.elasticpath.com/)** | ~$4,166/month ($50,000/year minimum annual contract) | 42-day (6-week) sales-provisioned evaluation sandbox trial with full Commerce Manager access | ~$120M Valuation / $160M+ funding | Composable commerce platform specializing in B2B, subscriptions, complex account hierarchies, and dynamic product bundles. |
 
 ## Open-Source GitHub Projects
 
+Curated open-source headless commerce engines, full-stack frameworks, and modern decoupled storefronts, sorted by GitHub stargazers count descending.
 
+- **[Medusa](https://github.com/medusajs/medusa)** [![GitHub stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)  
+  **The leading open-source headless commerce engine** for JavaScript/TypeScript developers. **MIT licensed** with no platform fees, no feature paywalls, and full data ownership. Built as a modular Node.js backend with 22 independent commerce modules (Cart, Order, Payment, Fulfillment, Inventory, Promotion, Pricing, Tax), a multi-step workflow engine with automated rollback, built-in admin dashboard, and production-ready Next.js starters for B2C, B2B, and marketplace setups.
 
-- **[Medusa](https://github.com/medusajs/medusa)**  
+- **[Bagisto](https://github.com/bagisto/bagisto)** [![GitHub stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers)  
+  **Enterprise open-source headless ecommerce engine** built on Laravel and Vue.js. **MIT licensed**. Offers complete REST and GraphQL API coverage, multi-channel and multi-currency support, multi-warehouse inventory management, and an extensible headless architecture with customizable storefront options.
 
-  **The leading open-source headless commerce engine** for JavaScript/TypeScript developers. **MIT licensed** with no platform fees, no feature paywalls, and full data ownership . **Architecture**: modular Node.js backend with 22 independent commerce modules (Cart, Order, Payment, Fulfillment, Inventory, Promotion, Pricing, Tax, etc.) . **Workflow engine** handles multi-step operations with retry logic, rollback on failure, and step-by-step status tracking—so "reserve inventory, charge payment, create fulfillment" doesn't half-complete . **Admin dashboard** built-in at `/app`. **Next.js starter storefront** included with Stripe, Algolia, and Tailwind integrations. **B2B, D2C, marketplace, and POS starters** share the same engine . **Trade-offs**: newer ecosystem than Magento/Sylius; some enterprise features require custom development. Best for JavaScript teams building custom commerce experiences who want a modern, modular engine with full control.
+- **[Saleor](https://github.com/saleor/saleor)** [![GitHub stars](https://img.shields.io/github/stars/saleor/saleor?style=social&color=white)](https://github.com/saleor/saleor/stargazers)  
+  **The GraphQL-native commerce backend** built in Python/Django with a modern React/TypeScript dashboard. **BSD-3-Clause licensed**. Exposes the entire commerce surface through an ultra-fast GraphQL API utilized by headless storefronts, third-party apps, and administrative workflows, backed by an App SDK and event-driven webhooks.
 
+- **[Spree](https://github.com/spree/spree)** [![GitHub stars](https://img.shields.io/github/stars/spree/spree?style=social&color=white)](https://github.com/spree/spree/stargazers)  
+  **Battle-tested Ruby on Rails commerce engine**, fully modernized for headless deployments with a **production-ready Next.js 16 storefront** (React 19, TypeScript, Tailwind CSS 4). **BSD-3-Clause licensed**. Provides full REST APIs with TypeScript SDKs, React Admin Dashboard with plugin extensibility, multi-vendor marketplace onboarding, and B2B wholesale capabilities.
 
+- **[Reaction Commerce (Mailchimp Open Commerce)](https://github.com/reactioncommerce/reaction)** [![GitHub stars](https://img.shields.io/github/stars/reactioncommerce/reaction?style=social&color=white)](https://github.com/reactioncommerce/reaction/stargazers)  
+  **API-first, real-time headless commerce engine** built on Node.js, GraphQL, and MongoDB with a microservices architecture. **GPL-3.0 licensed**. Designed for high-throughput transactional experiences, multi-shop management, and customizable checkout pipelines.
 
-- **[Saleor](https://github.com/saleor/saleor)**  
+- **[Magento Open Source](https://github.com/magento/magento2)** [![GitHub stars](https://img.shields.io/github/stars/magento/magento2?style=social&color=white)](https://github.com/magento/magento2/stargazers)  
+  **The foundational open-source ecommerce platform** powering thousands of global merchants. **OSL-3.0 licensed**. Offers extensive REST and GraphQL APIs for headless architectures (PWA Studio, Adobe Edge Delivery), robust B2B/B2C catalog engines, complex pricing tiers, and global multi-store support.
 
-  **The GraphQL-native commerce backend** built in Python/Django with a TypeScript dashboard. **BSD-3-Clause licensed**. Entire commerce surface exposed through a single GraphQL API used by storefronts, the Dashboard, and third-party Apps . **App SDK** enables building background services that extend Saleor over GraphQL and react to webhooks. **Next.js starter storefront** included. **Saleor Cloud** offers managed hosting with the same GraphQL API . **Strengths**: clean GraphQL API design, Python ecosystem, and a mature app framework. **Trade-offs**: requires GraphQL expertise; less module-level composability than Medusa. Best for teams that want GraphQL as the primary commerce API and prefer Python/Django on the backend.
+- **[Vue Storefront](https://github.com/vuestorefront/vue-storefront)** [![GitHub stars](https://img.shields.io/github/stars/vuestorefront/vue-storefront?style=social&color=white)](https://github.com/vuestorefront/vue-storefront/stargazers)  
+  **Framework-agnostic open-source headless PWA frontend** for composable commerce. **MIT licensed**. Seamlessly connects to backends like Shopify, commercetools, Magento, BigCommerce, and custom APIs with pre-built UI components and SSR support.
 
+- **[WooCommerce](https://github.com/woocommerce/woocommerce)** [![GitHub stars](https://img.shields.io/github/stars/woocommerce/woocommerce?style=social&color=white)](https://github.com/woocommerce/woocommerce/stargazers)  
+  **The world’s most widely adopted open-source commerce platform**. **GPL-3.0 licensed**. Offers a comprehensive REST API and decoupled Store API that enable developers to build decoupled, headless frontends (Next.js, Gatsby, mobile apps) backed by the vast WordPress ecosystem.
 
+- **[Sylius](https://github.com/Sylius/Sylius)** [![GitHub stars](https://img.shields.io/github/stars/Sylius/Sylius?style=social&color=white)](https://github.com/Sylius/Sylius/stargazers)  
+  **The Symfony/PHP framework for headless ecommerce**. **MIT licensed**. Built from decoupled standalone components and unified API-first endpoints, offering unmatched architectural flexibility, strict code quality (BDD), and extensive customization for complex enterprise and B2B requirements.
 
-- **[Sylius](https://github.com/Sylius/Sylius)**  
+- **[Vendure](https://github.com/vendure-ecommerce/vendure)** [![GitHub stars](https://img.shields.io/github/stars/vendure-ecommerce/vendure?style=social&color=white)](https://github.com/vendure-ecommerce/vendure/stargazers)  
+  **TypeScript-first headless commerce framework** built on Node.js, NestJS, and GraphQL. **MIT licensed**. Built specifically for developer delight with strong typing across the entire stack, clean plugin architecture, extensible admin UI, and lightweight microservice deployment options.
 
-  **The Symfony/PHP framework for ecommerce**. **MIT licensed**. Built from decoupled components that can be used standalone, integrated as Symfony bundles into existing apps, or assembled into the full-stack Sylius platform . **Sylius 2.3** (November 2026) is the first release built for **Symfony 8**, with dark theme admin, configurable core grids, and multi-channel promotions . **Strengths**: component-based architecture offers unmatched flexibility—use only what you need; BDD approach and high code quality; strong B2B capabilities. **Trade-offs**: PHP/Symfony expertise required; steeper learning curve than Node.js alternatives. Best for PHP teams that want a framework rather than a platform, with the freedom to compose their own commerce system.
+- **[Solidus](https://github.com/solidusio/solidus)** [![GitHub stars](https://img.shields.io/github/stars/solidusio/solidus?style=social&color=white)](https://github.com/solidusio/solidus/stargazers)  
+  **Modular, open-source headless ecommerce engine** built with Ruby on Rails (fork of Spree). **BSD-3-Clause licensed**. Engineered for enterprise high-volume stores that demand complete customization, clean REST APIs, and absolute ownership over core order and checkout workflows.
 
+- **[PrestaShop](https://github.com/PrestaShop/PrestaShop)** [![GitHub stars](https://img.shields.io/github/stars/PrestaShop/PrestaShop?style=social&color=white)](https://github.com/PrestaShop/PrestaShop/stargazers)  
+  **Popular open-source ecommerce solution** written in PHP/Symfony. **OSL-3.0 licensed**. Features extensible web services and modern REST API modules enabling headless decoupled storefront architectures with large community extension support.
 
+- **[OpenCart](https://github.com/opencart/opencart)** [![GitHub stars](https://img.shields.io/github/stars/opencart/opencart?style=social&color=white)](https://github.com/opencart/opencart/stargazers)  
+  **Lightweight and accessible open-source ecommerce solution** in PHP. **GPL-3.0 licensed**. Delivers built-in RESTful API endpoints for catalog, cart, and order interactions suitable for lightweight headless setups and mobile apps.
 
-- **[Spree](https://github.com/spree/spree)**  
+- **[Shopware](https://github.com/shopware/shopware)** [![GitHub stars](https://img.shields.io/github/stars/shopware/shopware?style=social&color=white)](https://github.com/shopware/shopware/stargazers)  
+  **Modern open-source composable commerce platform** built with Symfony 7 and Vue.js. **MIT licensed**. Completely API-first (Sync API, Store API, Admin API) with composable architecture, rule builders, flow builders, and native headless frontends (Frontends framework).
 
-  **The long-standing Ruby commerce engine**, now modernized with a **production-ready Next.js 16 storefront** (React 19, TypeScript, Tailwind CSS 4) . **BSD 3-Clause licensed**. **Features**: REST API with TypeScript SDKs (`@spree/sdk`, `@spree/admin-sdk`, `@spree/seller-sdk`), React Admin Dashboard with plugin system, multi-tenant SaaS Enterprise Edition, B2B wholesale (price lists, customer groups, company accounts), marketplace seller onboarding with Stripe Connect payouts, and cross-border commerce with markets and translations . **CLI** (`@spree/cli`) enables terminal-based project management and API interaction with zero-config credentials for AI agents. Best for Ruby teams and developers wanting a battle-tested engine with a modern Next.js storefront out of the box.
+- **[Shuup](https://github.com/shuup/shuup)** [![GitHub stars](https://img.shields.io/github/stars/shuup/shuup?style=social&color=white)](https://github.com/shuup/shuup/stargazers)  
+  **Open-source multi-vendor marketplace engine** built with Python and Django. **OSL-3.0 licensed**. Features robust REST APIs for multi-merchant management, cross-vendor shopping carts, and custom headless storefront integrations.
 
+- **[OroCommerce](https://github.com/oroinc/orocommerce)** [![GitHub stars](https://img.shields.io/github/stars/oroinc/orocommerce?style=social&color=white)](https://github.com/oroinc/orocommerce/stargazers)  
+  **Open-source B2B commerce platform** built on Symfony with native CRM and ERP integration capabilities. **OSL-3.0 licensed**. Built specifically for complex B2B buyer journeys, price negotiation workflows, and headless corporate commerce.
 
-
-- **[Vendure](https://github.com/vendure-ecommerce/vendure)**  
-
-  A TypeScript-first headless commerce framework built on Node.js with GraphQL. Designed for developer productivity with a plugin architecture, NestJS foundation, and strong typing throughout. **MIT licensed**. Best for TypeScript teams that want GraphQL and a modern Node.js stack without Medusa's module abstraction.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **OroCommerce** — Open-source B2B commerce platform built on Symfony, with native CRM and ERP integration capabilities. Best for B2B organizations needing deep back-office integration .
-
-- **Vue Storefront** — Open-source headless PWA storefront that works with Magento, Shopify, commercetools, and other backends. Best for teams that want a framework-agnostic storefront layer.
-
-- **Openfront** — Shopify alternative built on Next.js 15 and KeystoneJS 6 with GraphQL API, 78+ data models, and a built-in AI assistant using MCP for natural-language store management . Best for developers wanting a full-stack TypeScript commerce starter.
-
-- **Frameworks for building custom systems**: Use **Medusa** for a modular Node.js backend with a Next.js storefront. Choose **Saleor** for GraphQL-first architecture with Python. Use **Sylius** when you want Symfony components and PHP flexibility. Choose **Spree** for a Ruby engine with a modern React storefront. For B2B-specific needs, evaluate **OroCommerce** or **Sylius Plus**.
-
-
+- **[Openfront](https://github.com/openshiporg/openfront)** [![GitHub stars](https://img.shields.io/github/stars/openshiporg/openfront?style=social&color=white)](https://github.com/openshiporg/openfront/stargazers)  
+  **Shopify alternative built on Next.js 15 and KeystoneJS 6**. **MIT licensed**. Fully headless with automated GraphQL APIs, 78+ data models, PostgreSQL storage, and built-in AI assistant support via Model Context Protocol (MCP).
 
 ## How to Contribute
 
